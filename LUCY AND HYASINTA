@@ -1,0 +1,176 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "a137d134-17fd-486c-a29f-d56b3ad31101",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=2**3+4\n",
+    "c=2**(3+4)\n",
+    "print(a==c)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "da3c123e-a4bb-49e6-a2c9-b7f87e8f2bd5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "785.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "r=5**2\n",
+    "h=10\n",
+    "p=3.14\n",
+    "a=r*h*p\n",
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "db1dc3bb-6526-4d95-b1c4-96254ee8ca08",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "z=20\n",
+    "w=6\n",
+    "y=z%w*2+z//w\n",
+    "print(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "86a5a630-c7c9-44e1-914a-8f9e35911273",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "ab70c697-277a-46d8-852c-a55a40af7180",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "100.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "f=212\n",
+    "x=32\n",
+    "d=5/9\n",
+    "c=(f-x)*d\n",
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "148b821c-7683-4310-bf1d-72cf558b7091",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "number=int(input(\"100:\"))\n",
+    "if is_prime (53):\n",
+    "    print(f\"{100}is a prime number.\")\n",
+    "else:\n",
+    "    print(f\"{100}is not a prime number.\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "319602ca-5761-4379-a209-f7a6099ca7cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "IndentationError",
+     "evalue": "unexpected indent (1377624735.py, line 10)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  Cell \u001b[1;32mIn[74], line 10\u001b[1;36m\u001b[0m\n\u001b[1;33m    category=(\"bmi_underweight\",\"bmi_normal weight\",\"bmi_overweight\",\"bmi_obese\")\u001b[0m\n\u001b[1;37m    ^\u001b[0m\n\u001b[1;31mIndentationError\u001b[0m\u001b[1;31m:\u001b[0m unexpected indent\n"
+     ]
+    }
+   ],
+   "source": [
+    "if bmi < 18.5:\n",
+    "    return\"underweight\"\n",
+    "elif 18.5 <= bmi < 25:\n",
+    "    return\"normal weight\"\n",
+    "elif 25 <= bmi < 30:\n",
+    "    return\"overweight\"\n",
+    "else:\n",
+    "    return\"obese\"\n",
+    "#bmi=float(input(\"80\")\n",
+    "     category=(\"bmi_underweight\",\"bmi_normal weight\",\"bmi_overweight\",\"bmi_obese\")\n",
+    "            print (\"your bmi category\")\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "facd4aca-42e6-4dda-9d6b-34fd89b85738",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "students = [\"A\" , \"B\" ,\"C\" ,\"D\" ,\"E\" ,\"F\"]\n",
+    "name=str(input(\"name of students\"))\n",
+    "score=int(input(90% <=score <=100% , 80% <=score < 90% , 70% <= score < 80% , 60% <\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
